@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>东风农机竞价平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="东风农机竞价平台" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- libsCss -->
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/libs/PACE/themes/blue/pace-theme-flash.css">
+    <!--<link rel="stylesheet" href="../dist/libs/PACE/themes/blue/pace-theme-mac-osx.css">-->
+    <!-- End libsCss -->
+    <link rel="stylesheet" href="../src/css/app.css" />
+    <link rel="stylesheet" href="../src/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="../src/css/font.css" type="text/css" />
+    <link rel="stylesheet" href="../src/css/simple-line-icons.css" type="text/css" />
+    <link rel="stylesheet" href="../src/css/animate.css" type="text/css">
+</head>
+
+<body class="bglogin">
+    <div class="form-group wrapper-xl"></div>
+    <div class="container col-zz w-auto-xs bg-tm">
+        <a href class="navbar-brand block wrapper-xl login-titb m-t-md"></a>
+        <div class="m-b-lg m-t-sm m-l m-r">
+            <form name="form-signin" class="form-validation">
+                <div class="list-group list-group-sm">
+                    <div class="">
+                        <i class="fa fa-fw fa-user ico-p"></i>
+                        <input id="tmslogin_userName" name="tmslogin_userName" type="text" placeholder="请输入用户名" class="form-control no-border text-indentz" required>
+                    </div>
+                    <div class="">
+                        <i class="fa fa-fw fa-unlock-alt ico-p"></i>
+                        <input id="tmslogin_passWord" name="tmslogin_passWord" type="password" minlength="6" placeholder="请输入密码" class="form-control no-border text-indentz" required>
+                    </div>
+                </div>
+                <button id="tmslogin_loginEvent" onclick="siginBtn()" type="submit" class="btn btn-lg btn-danger btn-block">
+                   <i id="spin" class="fa fa-spinner no-bordr fa-spin hide"></i>
+                    <span id="logins">登　录</span>
+                    <span id="loging" class="hide">登录中...</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="app-footer m-n foot_zP">Copyright &copy; 2016, All Rights Reserved Powered By SINO logistics networking technology</div>
+
+
+
+</body>
+
+<!-- libsJs -->
+<script src="../libs/jquery/dist/jquery.min.js"></script>
+<script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../libs/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="../libs/jquery-validation/src/localization/messages_zh.js" charset="UTF-8"></script>
+<script src="../libs/JavaScript-MD5/js/md5.min.js"></script>
+<script data-pace-options='{ "ajax": false }' src="../dist/libs/PACE/pace.min.js"></script>
+<!-- End libsJs -->
+
+<!-- controller -->
+
+<script src="../dist/src/controllers/signin.js"></script>
+<!-- endController -->
+
+</html>

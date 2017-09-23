@@ -1,0 +1,13 @@
+<div ng-controller="cityController">
+    
+    <div><button ng-click="getCity()">getCity</button></div> 
+
+    <ul ng-repeat="city in cityList">
+        <li>{{city}}</li>
+    </ul>
+
+    <input type="text" ng-model="newCity"><button ng-click="addCity()">addCity</button><button ng-click="delCity()">delCity</button>
+</div>
+
+<hr/>
+ <a ui-sref="app">app</a>

@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": false,
+        "module": "none",
+        "removeComments": true,
+        "sourceMap": false,
+        "outDir": "dist"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/tms.ts",
+        "./src/app.ts",
+        "./src/config.router.ts",
+        "./src/config.ts",
+        "./src/main.ts",
+        "./src/common.ts",
+
+        "./src/directives/ui-nav.ts",
+        "./src/directives/ui-header.ts",
+        "./src/directives/ui-fullscreen.ts",
+        "./src/directives/ui-butterbar.ts",
+        "./src/directives/ui-toggleclass.ts",
+        "./src/directives/ui-scroll.ts",
+
+        //service
+
+
+
+       
+        "./src/services/goodsService.ts",
+        "./src/services/areaService.ts",
+    
+        //controller
+        "./src/controllers/goodsController.ts",
+        "./src/controllers/blankController.ts",
+        "./src/controllers/cityController.ts"
+       
+
+      
+
+
+    ]
+}

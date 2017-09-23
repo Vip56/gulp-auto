@@ -1,0 +1,18 @@
+{
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160802155123",
+    "angular-route": "registry:dt/angular-route#1.3.0+20160317120654",
+    "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160810191828",
+    "bootbox": "registry:dt/bootbox#4.4.0+20160326162245",
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160619023404",
+    "eonasdan-bootstrap-datetimepicker": "registry:dt/eonasdan-bootstrap-datetimepicker#4.17.37+20160319170655",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
+    "jquery.validation": "registry:dt/jquery.validation#1.13.1+20160626224847",
+    "moment": "registry:dt/moment#2.11.1+20160829143156",
+    "mustache": "registry:dt/mustache#0.8.2+20160316155526",
+    "ngbootbox": "registry:dt/ngbootbox#0.0.0+20160316155526",
+    "ui-grid": "registry:dt/ui-grid#0.0.0+20160619032954"
+  }
+}

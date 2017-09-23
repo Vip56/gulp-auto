@@ -1,0 +1,22 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-typescript": "^3.2.2",
+    "gulp-util": "^3.0.8",
+    "replacestream": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "through2": "^2.0.3",
+    "typescript": "^2.5.2"
+  }
+}

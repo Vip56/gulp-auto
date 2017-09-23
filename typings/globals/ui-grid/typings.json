@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/6ea0b792a03620f38a01a6ad047956788dbca539/ui-grid/ui-grid.d.ts",
+    "raw": "registry:dt/ui-grid#0.0.0+20160619032954",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/6ea0b792a03620f38a01a6ad047956788dbca539/ui-grid/ui-grid.d.ts"
+  }
+}

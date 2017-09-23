@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="tms">
+
+<head>
+    <title>东风农机竞价平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="东风农机竞价平台" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- libsCss -->
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../libs/angucomplete-alt/angucomplete-alt.css">
+    <link rel="stylesheet" href="../libs/AngularJS-Toaster/toaster.min.css">
+    <link rel="stylesheet" href="../libs/bootstrap-wysiwyg/index.css" />
+    <link href="../libs/angular-loading/angular-loading.css" rel="stylesheet" />
+    <!-- End libsCss -->
+
+    <link rel="stylesheet" href="../vendor/angular-ui-grid/ui-grid.css" />
+    <link rel="stylesheet" href="../src/css/app.min.css" />
+
+</head>
+
+
+<body ng-controller="mainController" ng-class="{'bglogin':islogin}">
+    <div dw-loading="appLoading" class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}"
+        ui-view></div>
+
+</body>
+
+<!-- libsJs -->
+<script src="../libs/jquery/dist/jquery.min.js"></script>
+<script src="../libs/moment/min/moment.min.js"></script>
+<script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../libs/bootbox/bootbox.js"></script>
+<script src="../libs/spin.js/spin.js"></script>
+<script src="../libs/mustache.js/mustache.min.js"></script>
+<script src="../libs/js-base64/base64.js"></script>
+<!--<script src="../libs/PACE/pace.js"></script>-->
+<script src="../libs/angular/angular.min.js"></script>
+<script src="../libs/angular-animate/angular-animate.min.js"></script>
+<script src="../libs/angular-resource/angular-resource.min.js"></script>
+<script src="../libs/angular-route/angular-route.min.js"></script>
+<script src="../libs/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="../libs/angular-touch/angular-touch.min.js"></script>
+<script src="../libs/angular-ui-scroll/dist/ui-scroll-grid.min.js"></script>
+<script src="../libs/angular-ui-scrollpoint/dist/scrollpoint.min.js"></script>
+<script src="../libs/angular-ui-event/dist/event.min.js"></script>
+<script src="../libs/angular-ui-mask/dist/mask.min.js"></script>
+<script src="../libs/angular-ui-validate/dist/validate.min.js"></script>
+<script src="../libs/angular-ui-indeterminate/dist/indeterminate.min.js"></script>
+<script src="../libs/angular-ui-utils/index.js"></script>
+<script src="../libs/AngularJS-Toaster/toaster.js"></script>
+<script src="../libs/angucomplete-alt/dist/angucomplete-alt.min.js"></script>
+<script src="../libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="../libs/oclazyload/dist/ocLazyLoad.min.js"></script>
+<script src="../libs/ngstorage/ngStorage.min.js"></script>
+<script src="../libs/ngBootbox/dist/ngBootbox.min.js"></script>
+<script src="../libs/angular-loading/angular-loading.min.js"></script>
+<script src="../libs/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="../libs/wild-angular/dist/wild-angular.min.js"></script>
+<script src="../libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<script src="../libs/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="../libs/jquery-validation/src/localization/messages_zh.js" charset="UTF-8"></script>
+<script src="../libs/bootstrap-wysiwyg/bootstrap-wysiwyg.js"></script>
+<!-- End libsJs -->
+
+
+<!--
+	
+	<script src="../dist/src/config.router.js"></script>
+	<script src="../dist/src/config.js"></script>
+	<script src="../dist/src/controllers/menuController.js"></script>
+	<script src="../dist/src/controllers/rongyun/rongyunController.js"></script>
+	<script src="../dist/src/directives/datetimePicker/jquery.datetimepicker.js"></script>-->
+<script src="../src/tms.js"></script>
+<script src="../src/app.js"></script>
+<script src="../src/common.js"></script>
+<script src="../src/config.router.js"></script>
+<script src="../src/main.min.js"></script>
+<script src="../src/main.js"></script>
+
+<!--build:js ../dist/src/services/service.min.js -->
+<script src="../dist/src/services/routeService.js"></script>
+<script src="../dist/src/services/areaService.js"></script>
+<script src="../dist/src/services/goodsService.js"></script>
+<script src="../dist/src/services/goodsTypeService.js"></script>
+
+
+
+<script src="../dist/src/services/userService.js"></script>
+<script src="../dist/src/services/offerService.js"></script>
+
+<script src="../dist/src/services/inquiryService.js"></script>
+
+<script src="../dist/src/services/loginService.js"></script>
+<script src="../dist/src/services/valueService.js"></script>
+
+<!-- endbuild  -->
+
+<!--<script src="../src/services/LodopFuncs.js"></script>
+	<script src="../src/services/wilddogService.js"></script>
+
+	<script src="../src/directives/ui-nav.js"></script>
+	<script src="../src/directives/tms-carLocation/tms-carLocation.js"></script>
+	<script src="../src/directives/ng-thumb.js"></script>-->
+
+<!--build:js ../dist/src/directives/directive.min.js -->
+<script src="../dist/src/directives/ui-header.js"></script>
+<script src="../dist/src/directives/datetimePicker/datetimePicker.js"></script>
+<script src="../src/directives/ui-validate.js"></script>
+<script src="../dist/src/directives/ui-toggleclass.js"></script>
+<script src="../dist/src/directives/ui-scroll.js"></script>
+<script src="../dist/src/directives/tms-address/tms-address.js"></script>
+
+<script src="../dist/src/directives/draggable.js"></script>
+
+
+<!-- endbuild -->
+
+<!--plug-in -->
+<script src="../vendor/angular-ui-grid/ui-grid.js"></script>
+<script src="../libs/bootstrap-wysiwyg/external/jquery.hotkeys.js"></script>
+
+<!--endPlug-in -->
+
+
+</html>

@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/852b85fa791cb0182b31e2beb72cf5dc2beaed34/eonasdan-bootstrap-datetimepicker/eonasdan-bootstrap-datetimepicker.d.ts",
+    "raw": "registry:dt/eonasdan-bootstrap-datetimepicker#4.17.37+20160319170655",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/852b85fa791cb0182b31e2beb72cf5dc2beaed34/eonasdan-bootstrap-datetimepicker/eonasdan-bootstrap-datetimepicker.d.ts"
+  }
+}
